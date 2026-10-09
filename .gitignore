@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.idea/
+.env
+
+# Generated sample files (recreate with: python samples/make_samples.py)
+samples/*.ifc
+samples/*.pdf
+
+# Your own rate library and project files may contain commercial pricing
+data/rates_custom.csv
+projects/

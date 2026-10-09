@@ -1,0 +1,17 @@
+location,factor
+Sydney,1.00
+Melbourne,0.98
+Brisbane,0.95
+Perth,1.00
+Adelaide,0.92
+Hobart,0.96
+Canberra,1.00
+Darwin,1.18
+Regional NSW,1.05
+Regional VIC,1.03
+Regional QLD,1.08
+Regional WA,1.15
+Regional SA,1.05
+Regional TAS,1.05
+Regional NT,1.25
+Remote,1.35

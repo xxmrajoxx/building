@@ -1,0 +1,7 @@
+[server]
+# Drawing sets and IFC models are often large
+maxUploadSize = 1000
+headless = true
+
+[browser]
+gatherUsageStats = false

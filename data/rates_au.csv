@@ -1,0 +1,66 @@
+code,trade,description,unit,material,labour,plant,waste_pct,keywords,ifc_class
+DEM-001,Demolition,Demolition and strip-out allowance (per m2 GFA),m2,0,45,30,0,demolition demolish strip out remove,
+SITE-001,Site Preparation & Earthworks,Site clearance and strip topsoil 150mm,m2,0,2.5,4.5,0,site clear clearance strip topsoil,
+EW-001,Site Preparation & Earthworks,Bulk excavation in clay and cart away,m3,0,8,22,0,bulk excavation earthworks cut dig,
+EW-002,Site Preparation & Earthworks,Detailed excavation to footings,m3,0,25,45,0,trench footing excavation pad strip detailed,
+EW-003,Site Preparation & Earthworks,Compacted crushed rock fill under slab,m3,65,15,20,10,fill crushed rock base compacted hardcore,
+CON-001,Concrete,Concrete 32MPa to slabs incl. pump and place,m3,260,55,25,5,slab concrete floor ground suspended,IfcSlab
+CON-002,Concrete,Concrete 25MPa to footings incl. place,m3,245,50,20,5,footing pad strip pile cap concrete,IfcFooting
+CON-003,Concrete,Concrete 40MPa to walls incl. place,m3,265,90,30,5,concrete wall core shear retaining,IfcWall
+CON-004,Concrete,Concrete 40MPa to columns incl. place,m3,270,140,30,5,concrete column,IfcColumn
+CON-005,Concrete,Concrete 40MPa to beams incl. place,m3,270,120,30,5,concrete beam band,IfcBeam
+CON-006,Concrete,Slab formwork edges and trowel finish (per m2 slab),m2,25,35,5,0,slab formwork finish soffit trowel edge,IfcSlab
+CON-007,Reinforcement,Reinforcement N-bars supply cut bend and fix,t,1900,900,50,5,reinforcement reo rebar bars n12 n16 allowance,
+CON-008,Reinforcement,Reinforcing mesh SL82 incl. bar chairs,m2,9,4,0,10,mesh sl82 sl92 fabric,
+CON-009,Concrete,Vapour barrier 0.2mm polyethylene under slab,m2,1.8,1.2,0,10,vapour barrier membrane polythene,
+CON-010,Concrete,Bored piers 450 dia incl. concrete,m,110,40,85,5,pile pier bored cfa,IfcPile
+MAS-001,Masonry,Face brickwork 110mm single skin,m2,75,85,5,5,brick brickwork face veneer skin,IfcWall
+MAS-002,Masonry,Blockwork 190mm core-filled and reinforced,m2,90,95,8,5,block blockwork masonry cmu core filled 190,IfcWall
+MAS-003,Masonry,Blockwork 140mm hollow,m2,70,80,6,5,block blockwork 140 hollow,IfcWall
+STL-001,Structural Steel,Structural steel fabricated primed and erected,t,3600,1400,400,3,steel structural ub uc pfc shs rhs beam column member,IfcBeam;IfcColumn;IfcMember
+STL-002,Structural Steel,Galvanised steel lintels,m,45,20,0,5,lintel angle galvanised,
+CAR-001,Carpentry,Timber wall framing 90x45 MGP10 incl. noggings,m2,35,40,0,10,timber stud frame framing wall,IfcWall
+CAR-002,Carpentry,Timber floor framing bearers and joists,m2,55,45,0,10,timber floor joist bearer framing,
+CAR-003,Carpentry,Prefabricated roof trusses (plan area),m2,65,25,8,5,truss trusses roof framing,
+CAR-004,Carpentry,Structural flooring 19mm particleboard,m2,32,15,0,8,particleboard flooring yellow tongue sheet,
+CAR-005,Carpentry,Timber member (posts beams) supply and fix,m,28,18,0,10,timber post beam lvl glulam,IfcBeam;IfcColumn;IfcMember
+ROO-001,Roofing,Metal roof sheeting incl. sarking and battens,m2,48,32,5,5,roof sheet sheeting metal colorbond roofing,IfcRoof;IfcSlab;IfcCovering
+ROO-002,Roofing,Concrete roof tiles incl. battens,m2,40,35,5,5,roof tile tiles concrete terracotta,
+ROO-003,Roofing,Quad gutter and fascia,m,30,25,0,5,gutter fascia eaves,
+ROO-004,Roofing,Downpipes 90 dia PVC,m,18,15,0,5,downpipe dp,
+CLD-001,External Cladding,Fibre cement cladding incl. wrap,m2,45,45,0,8,cladding fibre cement fc weatherboard external,IfcCovering;IfcPlate
+WIN-001,Windows & Glazing,Aluminium framed window powdercoated (per m2),m2,450,90,0,0,window aluminium glazing glass,IfcWindow
+WIN-002,Windows & Glazing,Aluminium window allowance approx 1200x1200,no,650,150,0,0,window aluminium,IfcWindow
+WIN-003,Windows & Glazing,Aluminium sliding door 2400x2100,no,1900,300,0,0,sliding door stacker patio aluminium,
+WIN-004,Windows & Glazing,Curtain wall glazing system,m2,950,250,50,0,curtain wall glazing facade,IfcCurtainWall
+DOR-001,Doors & Hardware,Internal door hollow core 820x2040 incl. frame and hardware,no,380,220,0,0,door internal hollow core passage,IfcDoor
+DOR-002,Doors & Hardware,External solid core door incl. frame and lockset,no,950,280,0,0,door external entry solid core front,IfcDoor
+DOR-003,Doors & Hardware,Fire-rated door FRL -/60/30 incl. frame and closer,no,1850,400,0,0,door fire rated frl,IfcDoor
+PLA-001,Plasterboard & Partitions,Plasterboard 10mm wall lining (per face),m2,9,18,0,10,plasterboard wall lining gyprock gib,
+PLA-002,Plasterboard & Partitions,Steel stud partition 92mm with 13mm plasterboard both sides and insulation,m2,55,60,0,8,partition stud plasterboard internal drywall,IfcWall
+PLA-003,Plasterboard & Partitions,Plasterboard ceiling 10mm on furring channels,m2,22,32,0,10,ceiling plasterboard suspended,IfcCovering
+PLA-004,Plasterboard & Partitions,Cove cornice 90mm,m,3,6,0,10,cornice cove,
+INS-001,Insulation,Wall insulation batts R2.5,m2,9,4,0,5,insulation batts wall r2.5,
+INS-002,Insulation,Ceiling insulation batts R4.0,m2,12,4,0,5,insulation batts ceiling r4,
+TIL-001,Wall & Floor Tiling,Floor tiling porcelain incl. adhesive and grout,m2,45,65,0,10,tile tiling floor ceramic porcelain,IfcCovering
+TIL-002,Wall & Floor Tiling,Wall tiling ceramic incl. adhesive and grout,m2,40,70,0,10,tile tiling wall splashback,
+TIL-003,Wall & Floor Tiling,Waterproofing membrane to wet areas,m2,18,30,0,5,waterproofing membrane wet area,
+FLR-001,Floor Finishes,Carpet incl. underlay,m2,45,12,0,8,carpet floor finish,IfcCovering
+FLR-002,Floor Finishes,Vinyl sheet flooring,m2,38,18,0,8,vinyl lino sheet floor,IfcCovering
+FLR-003,Floor Finishes,Timber floating floor,m2,55,20,0,8,timber floating floor laminate engineered room area,IfcCovering;IfcSpace
+PNT-001,Painting,Paint walls 3 coat acrylic,m2,3.5,10,0,0,paint painting wall,
+PNT-002,Painting,Paint ceilings 2 coat flat,m2,3,11,0,0,paint painting ceiling,
+PNT-003,Painting,Paint doors and frames,no,25,90,0,0,paint door frame,
+JOI-001,Joinery,Kitchen joinery base and overhead cupboards,m,900,250,0,0,kitchen cabinet joinery bench cupboard,
+JOI-002,Joinery,Bathroom vanity unit,no,900,200,0,0,vanity basin unit,
+HYD-001,Hydraulics,Plumbing fixture fit-off allowance (per fixture),no,650,850,0,0,plumbing fixture wc basin sink shower bath sanitary,IfcSanitaryTerminal;IfcFlowTerminal
+HYD-002,Hydraulics,Stormwater pipe 100 PVC incl. trenching,m,22,35,15,5,stormwater pipe drainage,
+ELE-001,Electrical,Double power point (GPO) incl. cabling,no,25,70,0,0,gpo power point outlet,IfcOutlet
+ELE-002,Electrical,LED downlight incl. cabling,no,45,55,0,0,light fitting downlight led,IfcLightFixture
+ELE-003,Electrical,Main switchboard,no,2500,1200,0,0,switchboard msb distribution board,
+MEC-001,Mechanical,Split system air conditioner 7kW,no,2200,900,0,0,split system air conditioning ac,
+MEC-002,Mechanical,Ventilation air terminal incl. ductwork allowance,no,180,160,0,0,air terminal diffuser grille vent,IfcAirTerminal
+RAI-001,Stairs & Balustrades,Steel balustrade or handrail,m,220,90,0,0,balustrade handrail railing,IfcRailing
+STA-001,Stairs & Balustrades,Stair flight (steel or precast),no,6500,2500,400,0,stair stairs flight,IfcStair
+EXT-001,External Works,Concrete driveway 100mm reinforced,m2,55,35,8,5,driveway path paving concrete external,
+EXT-002,External Works,Landscaping allowance,m2,25,20,0,0,landscape landscaping turf garden,
